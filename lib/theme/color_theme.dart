@@ -6,10 +6,10 @@ final class CustomColorScheme {
   /// Light theme renk seti
   static const lightColorScheme = ColorScheme( 
     brightness: Brightness.light,// Determines if the theme is light or dark./Temanın açık mı koyu mu olduğunu belirler.
-    primary: Color(0xFF6750A4),//Uygulamanızın ekranlarında ve bileşenlerinde en sık görüntülenen temel renktir.//*ör:elevated button text yazısı
+    primary: Color(0xFF58D68D),//Uygulamanızın ekranlarında ve bileşenlerinde en sık görüntülenen temel renktir.
     onPrimary: Color(0xFFFFFFFF),//primary rengi üzerindeki metin ve içerikler için kullanılır. Bu genellikle primary renginin üzerine kontrastlı bir metin rengi olur.
-    primaryContainer: Color(0xFFEADDFF),//primary renginin kullanıldığı konteynerların arka plan rengini belirler.//*ör: floating action button container rengi
-    onPrimaryContainer: Color(0xFF21005D),//primaryContainer rengi üzerindeki metin ve içerikler için kullanılır.//*ör: floating üstü yazı
+    primaryContainer: Color(0xFF50D4C4),//primary renginin kullanıldığı konteynerların arka plan rengini belirler.//*ör: floating action button container rengi
+    onPrimaryContainer: Color(0xFF0007EB),//primaryContainer rengi üzerindeki metin ve içerikler için kullanılır.//*ör: floating üstü yazı
     secondary: Color(0xFF625B71),//İkincil bir renktir ve genellikle uygulamanın arka planında, ikincil düğmelerde veya ikincil öğelerde kullanılır.
     onSecondary: Color(0xFFFFFFFF),//secondary rengi üzerindeki metin ve içerikler için kullanılır.
     secondaryContainer: Color(0xFFE8DEF8),//secondary renginin kullanıldığı konteynerların arka plan rengini belirler.
@@ -33,7 +33,7 @@ final class CustomColorScheme {
     onInverseSurface: Color(0xFFF4EFF4),//inverseSurface rengi üzerindeki metin ve içerikler için kullanılır.
     inversePrimary: Color(0xFFD0BCFF),//primary renginin ters (inverse) versiyonudur.
     shadow: Color(0xFF000000),//Gölgeler için kullanılan renktir. Örneğin, bir kutunun altındaki hafif gölge rengi.
-    surfaceTint: Color(0xFF6750A4),//surface renginin belirli bir tonu.
+    surfaceTint: Color(0xFF58D68D),//surface renginin belirli bir tonu. Örneğin, bir düğmenin arka plan rengi. //*ör: elevated button button rengi primary rengini açıp veriyor
     outlineVariant: Color(0xFFCAC4D0),//outline renginin alternatif bir versiyonudur.
     scrim: Color(0xFF000000),//Arka plandaki belirginlik efekti için kullanılan renk.
   );

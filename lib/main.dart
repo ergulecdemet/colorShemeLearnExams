@@ -1,4 +1,5 @@
 import 'package:color_sheme_learn_exams/pages/home_theme_page.dart';
+import 'package:color_sheme_learn_exams/theme/color_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
        
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: CustomColorScheme.lightColorScheme,
         useMaterial3: true,
       ),
       home: const HomeThemePage()
